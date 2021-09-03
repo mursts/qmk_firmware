@@ -19,10 +19,7 @@
 // place overrides here
 
 #define TAPPING_TERM 200
-#define IGNORE_MOD_TAP_INTERRUPT
-
-#define TAPPING_LAYER_TERM 150 // Custom LT Tapping term
-#define TAPPING_TERM_PER_KEY
+#define PERMISSIVE_HOLD
 
 #ifdef MOUSEKEY_ENABLE
   #undef MOUSEKEY_INTERVAL
