@@ -2,13 +2,6 @@
 
 #include "config_common.h"
 
-/* USB Device descriptor parameter */
-#define VENDOR_ID 0xFEED
-#define PRODUCT_ID 0x0C21
-#define DEVICE_VER 0x0001
-#define MANUFACTURER mursts
-#define PRODUCT bellis40
-
 /* key matrix size */
 #define MATRIX_ROWS 4
 #define MATRIX_COLS 12
@@ -16,7 +9,6 @@
 /* key matrix pins */
 #define MATRIX_ROW_PINS { F5, D4, D0, D1 }
 #define MATRIX_COL_PINS { F4, D3, F6, F7, B1, B3, D7, E6, B4, B5, B6, B2 }
-#define UNUSED_PINS
 
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW
